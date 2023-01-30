@@ -4,7 +4,11 @@ title:  "技术文档开始使用Jekyll"
 date:   2023-01-29 22:58:20 +0000
 categories: jekyll update
 ---
-本站从2023年01月29日启用基于Jekyll的Markdown博客。
+本站从2023年01月29日启用基于[`Jekyll`][Jekyll-website]的Markdown博客。
+
+[Jekyll-website]: https://jekyllrb.com
+
+Jekyll最大的优点是完全不需要数据库，和Github结合天衣无缝。
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
