@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body style="background-color: #F1FFF7;">
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
+
+<style>
+  body {
+    background: linear-gradient(to bottom, #F1FFF7 0%, #ffdf99 170%);
+  }
+
+  .narrator{
+        animation-name: narrator_enter; 
+        animation-duration:5s;
+        /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+        font-family: 'labiti'
+  }
+</style>
