@@ -58,7 +58,7 @@ Here's a paragraph that will be visible.
 
 [This is a comment that will be hidden.]: # 
 
-And here's another paragraph that's visible.
+And here's <br style="color:oringe;">another paragraph</br> that's visible.
 
 > :warning: **Warning:** Do not push the big red button.
 
@@ -91,3 +91,10 @@ And here's another paragraph that's visible.
 {#aaa}
 
 % aaa
+
+ <details>
+    <summary>Your header here! (Click to expand)</summary>
+    Your content here...</br>
+    (markup only where supported)</br>
+    more content here...</br>
+</details>
